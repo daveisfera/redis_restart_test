@@ -12,7 +12,7 @@ def _main():
         try:
             while True:
                 if message := pubsub.get_message(timeout=30):
-                    print(message)
+                    print(message, flush=True)
                 else:
                     print("Timeout", flush=True)
         except ConnectionError as e:
