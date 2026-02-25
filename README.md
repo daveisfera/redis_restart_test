@@ -4,10 +4,10 @@ Test of redis-py for when redis restarts
 
 # Instructions
 ```
-./build.sh
-./start.sh
-./restart.sh
-./stop.sh
+local/build.sh
+local/start.sh
+local/restart.sh
+local/stop.sh
 ```
 
 You can view the logs with this command:
